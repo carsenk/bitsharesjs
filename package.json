@@ -29,8 +29,7 @@
         "example:feed": "babel-node examples/publishFeed",
         "example:co-update": "babel-node examples/callOrderUpdate",
         "example:chainStore": "babel-node examples/chainStore",
-        "example:privKey": "babel-node examples/privKey",
-        "postinstall": "npm run build"
+        "example:privKey": "babel-node examples/privKey"
     },
     "repository": {
         "type": "git",
