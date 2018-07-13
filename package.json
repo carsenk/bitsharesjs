@@ -29,7 +29,8 @@
         "example:feed": "babel-node examples/publishFeed",
         "example:co-update": "babel-node examples/callOrderUpdate",
         "example:chainStore": "babel-node examples/chainStore",
-        "example:privKey": "babel-node examples/privKey"
+        "example:privKey": "babel-node examples/privKey",
+        "postinstall": "npm run build"
     },
     "repository": {
         "type": "git",
@@ -52,7 +53,7 @@
     "jsnext:main": "./es/index.js",
     "dependencies": {
         "bigi": "1.4.2",
-        "bitsharesjs-ws": "1.5.4",
+        "bitsharesjs-ws": "git+https://github.com/CryptoBridge/bitsharesjs.git",
         "bs58": "4.0.1",
         "bytebuffer": "5.0.1",
         "create-hash": "1.2.0",
