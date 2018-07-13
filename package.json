@@ -53,7 +53,7 @@
     "jsnext:main": "./es/index.js",
     "dependencies": {
         "bigi": "1.4.2",
-        "bitsharesjs-ws": "git+https://github.com/CryptoBridge/bitsharesjs.git",
+        "bitsharesjs-ws": "git+https://github.com/CryptoBridge/bitsharesjs-ws.git",
         "bs58": "4.0.1",
         "bytebuffer": "5.0.1",
         "create-hash": "1.2.0",
